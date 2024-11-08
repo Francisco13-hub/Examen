@@ -1,0 +1,84 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #024caa;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-container img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+}
+
+.header-info h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+}
+
+/* Secciones generales */
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Sección de habilidades */
+.skills-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.skill {
+    text-align: center;
+}
+
+.skill img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Sección de experiencia y proyectos */
+.job, .project {
+    margin-bottom: 16px;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #024caa;
+    color: #fff;
+}
